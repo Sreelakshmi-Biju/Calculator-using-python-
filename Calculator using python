@@ -1,0 +1,30 @@
+n=int(input("enter limit"))
+x=input("Enter exp")
+if x= "+":
+s-0
+for i in range(n):
+num =int(input("Enter number: "))
+s+=num
+print(s)
+elif x=="-":
+sub=int(input("Enter number"))
+for i in range(n-1):
+num=int(input("Enter number"))
+sub-=num
+print(sub)
+elif x=="*":
+mult=1
+for i in range(n):
+num=int(input("Enter number"))
+mult*=num
+print(mult)
+elif x=="/":
+div=int(input("Enter number"))
+for i in range(n-1):
+num=int(input("Enter number"))
+div/=num
+if num==0:
+print("Error")
+print(div)
+else:
+print("invalid operator")
